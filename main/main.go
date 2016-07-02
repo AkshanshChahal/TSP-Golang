@@ -23,7 +23,7 @@ func main() {
 	/**
 		Taking the cost matrix input from a file	
 	*/
-	dat, err := ioutil.ReadFile("/Users/akshanshchahal/Desktop/mfile.txt")
+	dat, err := ioutil.ReadFile("/Users/akshanshchahal/Desktop/output.txt")
     check(err)
     s := string(dat)
     x := strings.Fields(s)	// splitting a string into slice of strings about whitespaces 
