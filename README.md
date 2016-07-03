@@ -3,14 +3,14 @@ Its an implementation of Travelling Salesman Problem by Branch and Bound Method 
 
 ### Pre-Requisites
 - Golang, Python should be installed.
-- GOPATH is properly set. For help visit [How to Write Go Code]
+- GOPATH should be properly set. For help visit [How to Write Go Code]
 
 ### How to Proceed
 First use  **generate_di_graph.py** to generate a random cost matrix.
 ```sh
 $ python generate_di_graph.py -n 21 -o output.txt
 ```
-Here replace 21 by the size of matrix required and output.txt by the path for the file in which you want the cost matrix to be printed. Also mention the path for output.txt in **main.go** (line 26). main() function will take the cost matrix input from the ouput.txt and will proceed with the calculation of the optimum Hamiltonian Path calculation.
+Here replace 21 by the size of matrix required and output.txt by the path for the file in which you want the cost matrix to be printed. Also mention the path for output.txt in **main.go** (line 26). main() function will take the cost matrix input from ouput.txt and will proceed with the calculation of the optimum Hamiltonian Path.
 
 
 
