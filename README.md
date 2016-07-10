@@ -14,7 +14,8 @@ Here replace 21 by the size of matrix required and output.txt by the path for th
 
 #### Now to build and run
 
-First make sure that all the directories (one folder per package) for parallel code (as commited by me) are in the src folder as shown:
+First make sure that all the directories (one per package) for parallel code are in the src folder.
+To give you an idea of how the workspace will look like:
 ```sh
 bin/
     hello                          # command executable
