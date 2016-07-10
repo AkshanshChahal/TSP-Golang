@@ -12,16 +12,54 @@ $ python generate_di_graph.py -n 21 -o output.txt
 ```
 Here replace 21 by the size of matrix required and output.txt by the path for the file in which you want the cost matrix to be printed. Also mention the path for output.txt in **main.go** (line 26). main() function will take the cost matrix input from ouput.txt and will proceed with the calculation of the optimum Hamiltonian Path.
 
-Now to build and run
+#### Now to build and run
+
+First make sure that all the directories (one folder per package) for parallel code (as commited by me) are in the src folder as shown:
+```sh
+bin/
+    hello                          # command executable
+    main                           # command executable
+pkg/
+  darwin_amd64/
+      tsp_parallel/
+          myTSP.a           # package object
+          myNode.a          # package object
+          mycost.a          # package object
+          prq.a             # package object
+src/
+  hello/
+	    hello.go                    # command source
+	tsp_parallel/
+	    main/
+	        main.go                 # command source
+	    myTSP/
+	        tsp.go                  # command source
+	        processnodes.go         # command source
+	    myNode/
+	        node.go                 # command source
+	    mycost/
+	        cost.go                 # command source
+	    prq/
+	        priority_queue.go       # command source
+	        
+... (many more repositories and packages omitted) ...    
+```	    
+
+
 
 
 ### To Do
+  coming soon ...
 
 ### Sources
-
+  coming soon ...
+  
+### Liscence
+[MIT Liscence]
 
 
 
 
 
 [How to Write Go Code]: <https://golang.org/doc/code.html>
+[MIT Liscence]: <https://github.com/AkshanshChahal/TSP-Golang/blob/master/LICENSE>
