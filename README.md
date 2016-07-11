@@ -65,7 +65,7 @@ Similarly we can do for the sequential program.
   coming soon ...
   
 ### Liscence
-[MIT Liscence]
+Copyright (c) 2016 Akshansh Chahal [MIT Liscence]
 
 
 
