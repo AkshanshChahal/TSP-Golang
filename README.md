@@ -45,8 +45,17 @@ src/
 	        
 ... (many more repositories and packages omitted) ...    
 ```	    
+Now we can build and install the program with the go tool:
+```sh
+$ go install tsp_parallel/main
+```
+We can run this command from anywhere on our system. This command produces an executable binary and installs this binary to the workspace's bin directory as **main**.
+We can now run the program by typing its full path at the command line:
+```sh
+$ $GOPATH/bin/main
+```
 
-
+Similarly we can do for the sequential program.
 
 
 ### To Do
