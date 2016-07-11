@@ -12,7 +12,7 @@ $ python generate_di_graph.py -n 21 -o output.txt
 ```
 Here replace 21 by the size of matrix required and output.txt by the path for the file in which you want the cost matrix to be printed. Also mention the path for output.txt in **main.go** (line 26). main() function will take the cost matrix input from ouput.txt and will proceed with the calculation of the optimum Hamiltonian Path.
 
-#### Now to build and run
+#### How to build and run
 
 First make sure that all the directories (one per package) for parallel code are in the src folder.
 To give you an idea of how the workspace will look like:
