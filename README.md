@@ -62,14 +62,16 @@ Similarly we can do for the sequential program.
   coming soon ...
 
 ### Sources
-  coming soon ...
+  [JOT Collumn] by Prof Richard Wiener
+  [https://golang.org]
+  [https://gobyexample.com]
   
 ### Liscence
 Copyright (c) 2016 Akshansh Chahal [MIT Liscence]
 
 
-
-
-
+[https://gobyexample.com]: <https://gobyexample.com>
+[https://golang.org]: <https://golang.org>
+[JOT Collumn]: <http://www.jot.fm/issues/issue_2003_07/column8/index.html>
 [How to Write Go Code]: <https://golang.org/doc/code.html>
 [MIT Liscence]: <https://github.com/AkshanshChahal/TSP-Golang/blob/master/LICENSE>
