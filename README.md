@@ -58,9 +58,6 @@ $ $GOPATH/bin/main
 Similarly we can do for the sequential program.
 
 
-### To Do
-  coming soon ...
-
 ### Sources
   - [JOT Collumn] by Prof Richard Wiener
   - [The Go Programming Language]
